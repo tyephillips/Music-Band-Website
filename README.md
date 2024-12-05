@@ -2,7 +2,7 @@
 
 🎸 Music Band Website
 
-A dynamic and responsive website for a music band, built with Django, HTML, and Bootstrap. This project showcases the band’s details, upcoming events, exclusive content and user profiles.
+A dynamic and responsive website for a music band, built with Django, HTML, and Bootstrap. This project showcases the band’s details, upcoming events, exclusive content, and user profiles.
 
 🚀 Features
 
@@ -21,10 +21,11 @@ A dynamic and responsive website for a music band, built with Django, HTML, and 
 
 
 Homepage:
-![Screenshot 2024-12-05 at 12 52 25 (2)](https://github.com/user-attachments/assets/e3282ef0-6180-4830-a52a-e1810cc61795)
+![image](https://github.com/user-attachments/assets/036c8262-1b74-404d-b4f7-ddee71243aef)
 
 Events Page:
-![Screenshot 2024-12-05 at 12 52 59 (2)](https://github.com/user-attachments/assets/67c2e1f7-ce94-484e-801d-9fd4382558cd)
+![image](https://github.com/user-attachments/assets/ed90ea67-4eb0-4c63-a29a-7219d0f105fb)
+
 
 💾 Installation and Setup
 
