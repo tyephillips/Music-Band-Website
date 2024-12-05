@@ -1,0 +1,54 @@
+{% extends 'horizons/base.html' %}
+
+{% block title %}Home - The Horizons {% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="jumbotron jumbotron-fluid bg-dark text-white text-center mx-auto">
+    <div class="container py-4 px-0">
+        <h1 class="display-4">Welcome to The Horizons!</h1>
+        <p class="lead">Join us on our musical journey and discover exclusive content, events, and more.</p>
+        <a href="{% url 'horizons:events' %}" class="btn btn-primary btn-lg ">View Upcoming Events</a>
+    </div>
+</div>
+
+<!-- About the Band Section -->
+<div class="container text-center mb-5">
+    <h2>About Us</h2>
+    <p class="lead">
+        We are a passionate band that creates music that connects with the soul. From live performances to behind-the-scenes content, we bring you closer to our journey.
+    </p>
+    <a href="{% url 'horizons:member_area' %}" class="btn btn-outline-dark btn-lg">Join Our Fan Club</a>
+</div>
+
+<!-- Features Section -->
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <h3>Exclusive Videos</h3>
+            <p>Get access to exclusive behind-the-scenes content, music videos, and live performances.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Merchandise</h3>
+            <p>Show your support with our exclusive band merchandise. Only available to our fans.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Meet & Greet</h3>
+            <p>Meet the band members and get a chance to interact with us in exclusive events.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Call to Action Section -->
+<div class="container text-center mt-5">
+    <h2>Stay Connected</h2>
+    <p class="lead">Follow us on social media for the latest updates and special announcements.</p>
+    <a href="#" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
+    <a href="#" class="btn btn-danger btn-lg ml-3">Like Us on Facebook</a>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-5 mt-5">
+    <p>&copy; 2024 The Horizons. All Rights Reserved.</p>
+</footer>
+{% endblock %}

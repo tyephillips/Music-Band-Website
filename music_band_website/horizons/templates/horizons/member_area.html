@@ -1,0 +1,36 @@
+{% extends 'horizons/base.html' %}
+
+{% block title %}Member Area{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mt-4">Welcome to the Member Area</h1>
+    <p class="lead">This section is exclusively for our band fans!</p>
+</div>
+
+<div class="row mt-5">
+    <!-- Exclusive Content Section -->
+    <div class="col-md-6">
+        <h2>Exclusive Videos</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="#">Behind-the-Scenes: Recording Session</a></li>
+            <li class="list-group-item"><a href="#">Live Performance Highlights</a></li>
+            <li class="list-group-item"><a href="#">Meet the Band Members</a></li>
+        </ul>
+    </div>
+
+    <!-- Member Perks Section -->
+    <div class="col-md-6">
+        <h2>Exclusive Perks</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Access to early ticket sales</li>
+            <li class="list-group-item">Discounts on band merchandise</li>
+            <li class="list-group-item">Special invitations to meet-and-greet events</li>
+        </ul>
+    </div>
+</div>
+
+<div class="text-center mt-5">
+    <a href="{% url 'horizons:events' %}" class="btn btn-primary">View Upcoming Events</a>
+</div>
+{% endblock %}

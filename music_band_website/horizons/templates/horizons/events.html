@@ -1,0 +1,20 @@
+{% extends 'horizons/base.html' %}
+
+{% block title %}Events{% endblock %}
+
+{% block content %}
+<h1>Upcoming Events</h1>
+<ul>
+    <!-- Loop through the events passed to the templates -->
+     {% for event in events %}
+     <li>
+        <strong>{{ event.name }}</strong> - {{ event.date }} at {{ event.time }}
+        <br>
+        Location: {{ event.location }}
+        <br>
+        Ticket Price: ${{ event.ticket_price }}
+        <p>{{ event.description }}</p>
+     </li>
+     {% endfor %}
+</ul>
+{% endblock %}
