@@ -21,10 +21,12 @@ A dynamic and responsive website for a music band, built with Django, HTML, and 
 
 
 Homepage:
-![image](https://github.com/user-attachments/assets/036c8262-1b74-404d-b4f7-ddee71243aef)
+
+![Screenshot 2024-12-05 at 12 59 54](https://github.com/user-attachments/assets/b930fb42-61cf-4276-b127-d898da05f13b)
 
 Events Page:
-![image](https://github.com/user-attachments/assets/ed90ea67-4eb0-4c63-a29a-7219d0f105fb)
+![Screenshot 2024-12-05 at 13 00 07](https://github.com/user-attachments/assets/1bb302f6-49b5-4a3b-80cd-50a30f5afd3a)
+
 
 
 💾 Installation and Setup
