@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class Event(models.Model):
+class MusicEvent(models.Model):
     """
     Represents an event for the band, including details like name, date,
     time, location, ticket price, and a description.
@@ -25,3 +25,4 @@ class Event(models.Model):
         Returns the name of the event as its string representation.
         """
         return self.name
+    
